@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="IdProvider" IDEtalkID="4BC767DD5DDFC04909A179F9BF255FB7" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pacs-base/pom.xml" />
+        <option value="$PROJECT_DIR$/pacs-data-extraction/pom.xml" />
+        <option value="$PROJECT_DIR$/pacs-mail/pom.xml" />
+        <option value="$PROJECT_DIR$/pacs-sftp/pom.xml" />
+        <option value="$PROJECT_DIR$/pacs-encryption/pom.xml" />
+        <option value="$PROJECT_DIR$/base-root/pom.xml" />
+        <option value="$PROJECT_DIR$/pacs-cm/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" assert-keyword="true" jdk-15="true" project-jdk-name="1.7.0_60" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

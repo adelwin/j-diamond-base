@@ -1,0 +1,9 @@
+<component name="CopyrightManager">
+  <copyright>
+    <option name="notice" value="File Name       : &amp;#36;file.fileName&#10;Class Name      : &amp;#36;file.qualifiedClassName&#10;Module Name     : &amp;#36;module.name&#10;Project Name    : &amp;#36;project.name&#10;Author          : &amp;#36;username&#10;Created Date    : &amp;#36;today.format(&quot;yyyy-MM-dd HH:mm:ss&quot;)&#10;&#10;Copyright (C) &amp;#36;today.year Prudential Assurance Company Singapore. All Rights Reserved. &lt;BR/&gt;&#10;This software contains confidential and proprietary information of Prudential Assurance Company Singapore.&#10;&#10;|=================|==================|=========|======================================&#10;| Author          | Date             | Version | Description&#10;|=================|==================|=========|======================================&#10;|                 |                  |         |&#10;|                 |                  |         |&#10;|=================|==================|=========|======================================" />
+    <option name="keyword" value="Copyright" />
+    <option name="allowReplaceKeyword" value="" />
+    <option name="myName" value="Adelwin - PACS" />
+    <option name="myLocal" value="true" />
+  </copyright>
+</component>

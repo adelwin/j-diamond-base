@@ -1,0 +1,9 @@
+org.si.diamond.base.dataextraction
+org.si.diamond.base.dataextraction.dao
+org.si.diamond.base.dataextraction.dao.impl
+org.si.diamond.base.dataextraction.delivery
+org.si.diamond.base.dataextraction.delivery.impl
+org.si.diamond.base.dataextraction.exception
+org.si.diamond.base.dataextraction.format
+org.si.diamond.base.dataextraction.handler
+org.si.diamond.base.dataextraction.model

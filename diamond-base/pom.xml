@@ -1,0 +1,174 @@
+<!--
+  ~ File Name       : pom.xml
+  ~ Class Name      : C:/@Adelwin/300.Workspaces/IDEA_Workspaces/PACS_BASE/pacs-base/pom.xml
+  ~ Module Name     : pacs-base
+  ~ Project Name    : pacs-base
+  ~ Author          : adelwin.handoyo
+  ~ Created Date    : 2014-10-14 09:57:04
+  ~
+  ~ Copyright (C) 2014 Prudential Assurance Company Singapore. All Rights Reserved. <BR/>
+  ~ This software contains confidential and proprietary information of Prudential Assurance Company Singapore.
+  ~
+  ~ |=================|==================|=========|======================================
+  ~ | Author          | Date             | Version | Description
+  ~ |=================|==================|=========|======================================
+  ~ | Adelwin Handoyo | 2014-10-14 10.04 | 2.4.0   | Add Mybatis and Mybatis-Spring dependency
+  ~ |                 |                  |         | Add aspectj-weaver for spring transaction wrapper
+  ~ |                 |                  |         |
+  ~ |=================|==================|=========|======================================
+  -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.si.diamond.base</groupId>
+	<artifactId>diamond-base</artifactId>
+	<packaging>jar</packaging>
+	<version>2.8.1</version>
+	<name>diamond-base</name>
+	<url>http://maven.apache.org</url>
+	<parent>
+		<groupId>org.si.diamond.base</groupId>
+		<artifactId>base-root</artifactId>
+		<relativePath>../base-root</relativePath>
+		<version>2.8.1</version>
+	</parent>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<dependencies>
+		<!-- Spring Dependency -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+			<version>${version-spring}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>${version-spring}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjweaver</artifactId>
+			<version>${version-aspectj}</version>
+		</dependency>
+
+		<!-- Apache Commons Dependency -->
+		<dependency>
+			<groupId>commons-dbcp</groupId>
+			<artifactId>commons-dbcp</artifactId>
+			<version>${version-commons-dbcp}</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>${version-commons-codec}</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.4</version>
+		</dependency>
+
+		<!-- Log4J Dependency -->
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>${version-log4j}</version>
+		</dependency>
+
+		<!-- MailX Dependency -->
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>mail</artifactId>
+			<version>${version-javax-mail}</version>
+		</dependency>
+
+		<!-- Jasypt Encryption Dependency -->
+		<dependency>
+			<groupId>org.jasypt</groupId>
+			<artifactId>jasypt</artifactId>
+			<version>${version-jasypt}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jasypt</groupId>
+			<artifactId>jasypt-spring31</artifactId>
+			<version>${version-jasypt}</version>
+		</dependency>
+
+		<!-- Mybatis Dependency -->
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis</artifactId>
+			<version>${version-mybatis}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis-spring</artifactId>
+			<version>${version-mybatis-spring}</version>
+		</dependency>
+
+		<!-- DB2 Driver Dependency -->
+		<dependency>
+			<groupId>com.ibm.db2</groupId>
+			<artifactId>db2java</artifactId>
+			<version>${version-ibm-db2}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.ibm.db2</groupId>
+			<artifactId>db2jcc</artifactId>
+			<version>${version-ibm-db2}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.ibm.db2</groupId>
+			<artifactId>db2jcc_license_cu</artifactId>
+			<version>${version-ibm-db2}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.ibm.as400</groupId>
+			<artifactId>jt400</artifactId>
+			<version>${version-ibm-db2}</version>
+		</dependency>
+
+		<!-- JUnit Dependency -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${version-junit}</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<version>2.3</version>
+				<executions>
+					<execution>
+						<id>attach-sources</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>2.9.1</version>
+				<executions>
+					<execution>
+						<id>attach-javadoc</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>

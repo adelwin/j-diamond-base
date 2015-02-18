@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="diamond-base" />
+        <module name="diamond-cm" />
+        <module name="diamond-data-extraction" />
+        <module name="diamond-encryption" />
+        <module name="diamond-mail" />
+        <module name="diamond-sftp" />
+        <module name="diamond-xml" />
+        <module name="pacs-base" />
+        <module name="pacs-cm" />
+        <module name="pacs-data-extraction" />
+        <module name="pacs-encryption" />
+        <module name="pacs-mail" />
+        <module name="pacs-sftp" />
+        <module name="pacs-xml" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

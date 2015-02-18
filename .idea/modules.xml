@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/base-root/base-root.iml" filepath="$PROJECT_DIR$/base-root/base-root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/diamond-base/diamond-base.iml" filepath="$PROJECT_DIR$/diamond-base/diamond-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/diamond-cm/diamond-cm.iml" filepath="$PROJECT_DIR$/diamond-cm/diamond-cm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/diamond-data-extraction/diamond-data-extraction.iml" filepath="$PROJECT_DIR$/diamond-data-extraction/diamond-data-extraction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/diamond-encryption/diamond-encryption.iml" filepath="$PROJECT_DIR$/diamond-encryption/diamond-encryption.iml" />
+      <module fileurl="file://$PROJECT_DIR$/diamond-mail/diamond-mail.iml" filepath="$PROJECT_DIR$/diamond-mail/diamond-mail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/diamond-sftp/diamond-sftp.iml" filepath="$PROJECT_DIR$/diamond-sftp/diamond-sftp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/diamond-xml/diamond-xml.iml" filepath="$PROJECT_DIR$/diamond-xml/diamond-xml.iml" />
+    </modules>
+  </component>
+</project>
