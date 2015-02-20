@@ -1,5 +1,0 @@
-org.si.diamond.base
-org.si.diamond.base.sftp.exception
-org.si.diamond.base.sftp.operation
-org.si.diamond.base.sftp.operation.impl
-org.si.diamond.base.sftp.provider

@@ -1,6 +1,0 @@
-org.si.diamond.base.xml
-org.si.diamond.base.xml.documentHandler
-org.si.diamond.base.xml.element
-org.si.diamond.base.xml.exception
-org.si.diamond.base.xml.parser
-org.si.diamond.base.xml.writer
