@@ -24,7 +24,7 @@
 	<artifactId>diamond-xml</artifactId>
 	<packaging>jar</packaging>
 	<version>2.8.1</version>
-	<name>pacs-xml</name>
+	<name>diamond-xml</name>
 	<url>http://maven.apache.org</url>
 	<parent>
 		<groupId>org.si.diamond.base</groupId>

@@ -24,7 +24,7 @@
 	<artifactId>diamond-sftp</artifactId>
 	<packaging>jar</packaging>
 	<version>2.8.1</version>
-	<name>pacs-sftp</name>
+	<name>diamond-sftp</name>
 	<url>http://maven.apache.org</url>
 	<parent>
 		<groupId>org.si.diamond.base</groupId>
